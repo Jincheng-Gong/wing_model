@@ -1,7 +1,7 @@
 '''
 @Time: 2024/4/17 11:10 AM
-@Author: 龚锦程
-@Contact: 广发商贸/做市业务部/Jincheng.Gong@hotmail.com
+@Author: Jincheng Gong
+@Contact: Jincheng.Gong@hotmail.com
 @File: plot.py
 @Desc: ORC Wing Model Solution Space Plot
 '''
@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore")
 
 
 if __name__ == "__main__":
-    wing_sim_args = pd.read_csv("wing_sim_args.csv", header=0)
+    wing_sim_args = pd.read_csv("./data/wing_sim_args.csv", header=0)
     wing_sim_args_true = wing_sim_args[wing_sim_args['wing_model_combined_test']]
 
     sr_unique = wing_sim_args_true['sr_'].unique()

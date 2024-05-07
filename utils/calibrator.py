@@ -1,7 +1,7 @@
 '''
 @Time: 2024/4/9 2:32 PM
-@Author: 龚锦程
-@Contact: 广发商贸/做市业务部/Jincheng.Gong@hotmail.com
+@Author: Jincheng Gong
+@Contact: Jincheng.Gong@hotmail.com
 @File: calibrator.py
 @Desc: ORC Wing Model Calibrator with Durrleman Condition
 '''

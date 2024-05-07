@@ -1,7 +1,7 @@
 '''
 @Time: 2024/4/12 9:10 AM
-@Author: 龚锦程
-@Contact: 广发商贸/做市业务部/Jincheng.Gong@hotmail.com
+@Author: Jincheng Gong
+@Contact: Jincheng.Gong@hotmail.com
 @File: black_scholes.py
 @Desc: Black-Scholes Utilities include Black-Scholes Price, Implied Volatility and Greeks
 '''
