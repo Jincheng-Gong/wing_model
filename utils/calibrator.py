@@ -218,10 +218,11 @@ def wing_model_calibrator(wing_model_params_list_input: List[float],
                             method="SLSQP",
                             bounds=bounds,
                             tol=epsilon)
-    assert res.success
-    print(res.success)
+    # assert res.success
+    # print(res.success)
     wing_model_solve = list(res.x)
-    res_dict = {"vr_": wing_model_solve[0],
+    res_dict = {"success": res.success,
+                "vr_": wing_model_solve[0],
                 "sr_": wing_model_solve[1],
                 "pc_": wing_model_solve[2],
                 "cc_": wing_model_solve[3]}
